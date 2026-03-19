@@ -35,14 +35,14 @@ const models = [
 
 const pricesByModel: Record<string, { qty: number; label: string; price: number; oldPrice: number; perUnit: number | null; badge: string | null; checkoutUrl: string }[]> = {
   "sao-bento": [
-    { qty: 1, label: "1 Unidade", price: 19, oldPrice: 29, perUnit: null, badge: null, checkoutUrl: "https://pay.rosamisterio.site/checkout/ad448ed6-2adb-407d-aa33-b2612ba6a265" },
-    { qty: 2, label: "2 Unidades", price: 29, oldPrice: 69, perUnit: 15, badge: "Mais vendido", checkoutUrl: "https://pay.rosamisterio.site/checkout/fc4d0f20-847c-429b-9812-26cbf8368390" },
-    { qty: 3, label: "3 Unidades", price: 39, oldPrice: 89, perUnit: 13, badge: null, checkoutUrl: "https://pay.rosamisterio.site/checkout/ff7b0935-972c-4678-bc80-b849bcdd094e" },
+    { qty: 1, label: "1 Unidade", price: 19, oldPrice: 29, perUnit: null, badge: null, checkoutUrl: "https://pay.realizarpedido.sbs/checkout/a0baeee8-88e3-422c-b1f9-34e61c8f115e" },
+    { qty: 2, label: "2 Unidades", price: 29, oldPrice: 69, perUnit: 15, badge: "Mais vendido", checkoutUrl: "https://pay.realizarpedido.sbs/checkout/733328fb-0b37-490e-b4c5-f9f6300520a9" },
+    { qty: 3, label: "3 Unidades", price: 39, oldPrice: 89, perUnit: 13, badge: null, checkoutUrl: "https://pay.realizarpedido.sbs/checkout/e5f593c2-14a0-46a5-85e6-b522471fb50b" },
   ],
   "aparecida": [
-    { qty: 1, label: "1 Unidade", price: 19, oldPrice: 29, perUnit: null, badge: null, checkoutUrl: "https://pay.rosamisterio.site/checkout/f299c504-6092-4196-91cd-381421e16619" },
-    { qty: 2, label: "2 Unidades", price: 29, oldPrice: 69, perUnit: 15, badge: "Mais vendido", checkoutUrl: "https://pay.rosamisterio.site/checkout/95e182d7-4338-430b-b2f5-482d39d51adc" },
-    { qty: 3, label: "3 Unidades", price: 39, oldPrice: 89, perUnit: 13, badge: null, checkoutUrl: "https://pay.rosamisterio.site/checkout/d09219cb-533c-4ba4-921f-45cf5592d75f" },
+    { qty: 1, label: "1 Unidade", price: 19, oldPrice: 29, perUnit: null, badge: null, checkoutUrl: "https://pay.realizarpedido.sbs/checkout/c470b3ea-55e6-4dc7-840d-a85d69dda4a4" },
+    { qty: 2, label: "2 Unidades", price: 29, oldPrice: 69, perUnit: 15, badge: "Mais vendido", checkoutUrl: "https://pay.realizarpedido.sbs/checkout/7e079777-9bb4-4859-abaf-f81000ddc5e8" },
+    { qty: 3, label: "3 Unidades", price: 39, oldPrice: 89, perUnit: 13, badge: null, checkoutUrl: "https://pay.realizarpedido.sbs/checkout/0653572a-dd86-4fa7-a0d7-a5260fa545c0" },
   ],
 };
 
